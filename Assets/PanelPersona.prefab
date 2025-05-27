@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3196895804500494633}
   - component: {fileID: 4613165496449306759}
   - component: {fileID: 931541270920897328}
+  - component: {fileID: 3586259663073199083}
+  - component: {fileID: 2020731950694456871}
   m_Layer: 5
   m_Name: PanelPersona
   m_TagString: Untagged
@@ -102,6 +104,53 @@ MonoBehaviour:
   textoNombre: {fileID: 2565069115324309233}
   textoBarrio: {fileID: 5693842287724906416}
   textoCantidadDelitos: {fileID: 3810979611609206441}
+--- !u!114 &3586259663073199083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882794225590509960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f534a0e1d8eceaf4681340e58132428b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  edad: 0
+  nombre: 
+  barrio: 
+  cantidadDelitos: 0
+  textoEdad: {fileID: 0}
+  textoNombre: {fileID: 0}
+  textoBarrio: {fileID: 0}
+  textoCantidadDelitos: {fileID: 0}
+--- !u!114 &2020731950694456871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882794225590509960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5371f7b7b3b63f418142a8c191260db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  accesoScriptMachine: {fileID: 0}
+  textoDescripcion: {fileID: 0}
+  panelAccesoEntregado: {fileID: 0}
+  panelAccesoDenegado: {fileID: 0}
+  descripcion: 
+  textoErrorAccesoDenegadoAVecino: 
+  textoErrorEdad: 
+  textoErrorBarrio: 
+  textoErrorDelitos: 
+  textoVictoria: 
+  persona1: {fileID: 0}
+  persona2: {fileID: 0}
+  persona3: {fileID: 0}
+  persona4: {fileID: 0}
+  persona5: {fileID: 0}
 --- !u!1 &1211915310462008511
 GameObject:
   m_ObjectHideFlags: 0
